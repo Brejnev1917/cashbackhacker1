@@ -16,7 +16,7 @@ public class CashbackHackServiceTest {
     @org.junit.Test
     public void boughtExactly1000() {
         CashbackHackService cashback = new CashbackHackService();
-        int amount = 1000;
+        int amount = 10000;
 
         int actual = cashback.remain(amount);
         int expected = 0;
